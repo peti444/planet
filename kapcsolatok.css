@@ -40,7 +40,7 @@ header{
     font-size: 20px;
 }
 #logo:hover{
-    transform: scale(1.2);
+    transform: scale(1.12);
 }
 a{
     transition: .2s;
