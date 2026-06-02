@@ -1,0 +1,115 @@
+body {
+    background: url(media/hatterkep.jpg) center/cover no-repeat fixed;
+    min-height: 100vh;
+    color: white;
+    font-family: Arial;
+}
+
+.overlay {
+    background: rgba(0, 0, 40, 0.75);
+    min-height: 100vh;
+}
+
+
+.navbar {
+    background: rgba(0, 10, 40, 0.95);
+    border-bottom: 2px solid white;
+}
+.nav-item {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.nav-link {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff9de2 !important;
+}
+
+
+.hero {
+    padding: 80px 0;
+    text-align: center;
+    background: rgba(0, 0, 30, 0.4);
+    backdrop-filter: blur(2px);
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+
+.ticket-box {
+    background: rgba(5, 20, 70, 0.92);
+    border-radius: 12px;
+    padding: 50px;
+    margin-top: 60px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.ticket-row {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.ticket-info-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.ticket-info {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-btn {
+    margin-top: 20px;
+    background: #172554;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background: #1e3a8a;
+}
+
+
+footer {
+    background: rgba(0, 10, 40, 0.95);
+    margin-top: 80px;
+    padding: 25px 0;
+    font-size: 0.9rem;
+}
+
+.social-icons i {
+    margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+    .ticket-row {
+        font-size: 1.4rem;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .ticket-box {
+        padding: 30px;
+    }
+}

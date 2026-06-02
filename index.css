@@ -1,0 +1,259 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f8faff;
+}
+header{
+    width: 100%;
+    background-color: #0A1730;
+    height: 100px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+#cim{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+}
+#focim{
+    margin: 0px;
+    font-size: 75px;
+    font-weight: bold;
+    text-shadow: 10px 10px 5px black;
+    z-index: 10;
+    position: relative;
+    text-align: center;
+}
+#alcim{
+    margin:0px;
+    font-weight: lighter;
+    text-decoration-line: underline;
+    text-shadow: 10px 10px 5px black;
+    z-index: 10;
+    position: relative;
+
+}
+#hatter{
+    background-image: url(media/hatterkep.jpg);
+}
+#tartalom {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 450px; 
+
+}
+    
+
+    
+.kartya{
+    background-color: #0D1F3F;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px black;
+    width: 450px;
+    height: 650px;
+    transition: 0.3s;
+    margin-top: 100px;
+    
+    
+
+}
+.kartya:hover{
+    transform: scale(1.03);
+}
+.kepek{
+    width: 450px;
+    height: 350px;
+    border-radius:7px 7px 0px 0px ;
+    margin: 0px;
+    display: block;
+    object-fit: cover
+}
+hr{
+    margin: 0px;
+    height: 5px;
+    background-color: #f8faff;
+    position: relative;
+    z-index: 10;
+}
+.kartyacim{
+    margin: 0px;
+    margin-top:0px ;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+.kartyaalcim{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+    
+}
+.kartyaszoveg{
+    font-size: 22px;
+    padding: 0px;
+}
+#kartyajobb{
+ margin-left: 25px ;
+}
+#kartyabal{
+ margin-right: 25px ;
+}
+#hatter2{
+    background: rgba(13, 31, 63, 0.9);
+}
+#artemis{
+    width: 100%;
+    object-fit: cover;
+    height: 550px;
+    
+}
+
+#container{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 125px;  
+}
+#logo{
+    width: 150px;
+    margin-right:35px ;
+    transition: .5s;
+
+}
+#logo:hover{
+ transform: scale(1.12);
+}
+a{
+    text-decoration: none;
+    color: #f8faff;
+}
+.headerlink{
+    font-size: 20px;
+    transition: 0.3s;
+
+}
+.headerlink:hover{
+    transform: scale(1.15);
+    
+}
+#headercim{
+    margin-left:35px ;
+}
+.kartyatartalom{
+    padding: 20px;
+    
+}
+#kiemelt{
+    max-width: 60%;
+    height: auto;
+    background-color: #0D1F3F;
+    border-radius: 7px;
+    transition: 0.2s;
+    box-shadow: 10px 10px 5px black;
+
+
+}
+#kiemelttartalom{
+    padding: 25px;
+    transition: .5s;
+}
+#kiemeltszoveg{
+    margin: 0px;
+    font-size: 23px;
+    margin-top: 35px;
+    margin-bottom: 7px;
+}
+#kiemeltcim{
+    margin: 0px;
+}
+#kiemeltcimm{
+    margin: 0px;
+    margin-bottom: 15px;
+}
+#kiemelt:hover{
+    transform: scale(1.02);
+}
+.gomb{
+    background: #0077B6;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 20px; 
+    transition: 0.2s;
+}
+
+.gomb:hover{
+    background: #00B4D8;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: #0D1F3F;
+    display: flex;
+    justify-content: space-between;
+    margin-top:250px ;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 20px;
+}
+.footerszoveg{
+    margin: 0px;
+    margin-top: 11px;
+}
+.betu{
+    font-weight: bold;
+}
+#videohatter{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+ .gombcontener{
+    display: flex;
+    justify-content: end;
+ }
+ @keyframes animacio {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.animacio {
+  animation: 1s animacio;
+}
